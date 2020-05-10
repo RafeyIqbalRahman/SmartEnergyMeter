@@ -9,6 +9,9 @@ import xlrd
 import pygame
 import pymysql.cursors
 
+# Use dummy display device if real device is not present
+# os.environ['SDL_VIDEODRIVER']='dummy'
+
 pygame.init()
 display_width = 250
 display_height = 150
